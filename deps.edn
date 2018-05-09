@@ -1,0 +1,6 @@
+{:deps {org.clojure/clojure {:mvn/version "1.9.0"}
+        javax.servlet/javax.servlet-api {:mvn/version "3.1.0"}}
+ :paths ["src"]
+ :aliases {:pack {:extra-deps {pack/pack.alpha {:git/url "https://github.com/juxt/pack.alpha.git"
+                                                :sha "7f46098598f70da960264d6e33e3aed7a107e1bc"}}
+                  :main-opts ["-m"]}}}
